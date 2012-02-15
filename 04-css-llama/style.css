@@ -80,7 +80,7 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 /* begin custom CSS*/
 #main-content {font-family: arial position: realtive; width:900px; margin: 40px;}
 img { float:left; margin: 0px 10px 20px 0px; width:40%;}
-#main-content h1 {font-size: 30px; font-family: arial; font-style: bold;}
+#main-content h1 {font-size: 30px; font-family: arial; font-weight: bold;}
 #main-content h2 {font-size: 20px ;font-family: arial;}
 #main-content  p {font-size: 16px; font-family: arial;}
 article {float: left; width:46%; padding: 2%;}
