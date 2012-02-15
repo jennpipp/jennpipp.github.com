@@ -75,7 +75,15 @@ html[xmlns] .clearfix { display: block; }
 
 /* logo replacement */
 
+
+/* begin custom CSS*/
 header#site-header h1 { position:absolute; left:10px; top:10px; }
 header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
+
+#main-content {color:red; position: realtive; width:500px; }
+img { float:left; margin: 10px;}
+h1 {size: 10%; }
+h2 {size: 8%;}
+p {size: 6%}
 
 
