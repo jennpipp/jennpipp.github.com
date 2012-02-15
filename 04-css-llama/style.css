@@ -78,11 +78,11 @@ header#site-header h1 { position:absolute; left:10px; top:10px; }
 header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
 
 /* begin custom CSS*/
-#main-content {font-family: arial position: realtive; width:900px; margin: 40px;}
+#main-content {font-family: arial position: realtive; width:900px; margin:80px;}
 img { float:left; margin: 0px 10px 20px 0px; width:40%;}
-#main-content h1 {font-size: 30px; font-family: arial; font-weight: bold;}
+#main-content h1 {font-size: 24px; font-family: arial; font-weight: bold;}
 #main-content h2 {font-size: 20px ;font-family: arial;}
-#main-content  p {font-size: 16px; font-family: arial;}
+#main-content  p {font-size: 16px; font-family: arial; padding: top 10px}
 article {float: left; width:46%; padding: 2%;}
 
 
