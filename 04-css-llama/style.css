@@ -81,7 +81,7 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 #main-content {font-family: arial position: realtive; width:900px; margin:80px;}
 img { float:left; margin: 0px 10px 20px 0px; width:40%;}
 #main-content h1 {font-size: 24px; font-family: arial; font-weight: bold;}
-#main-content h2 {font-size: 16px ;font-family: arial; postion: realative; top: 10px}
+#main-content h2 {font-size: 12px ;font-family: arial; float: left; margin: 0px 0px 10px 0px}
 #main-content  p {font-size: 16px; font-family: arial;}
 article {float: left; width:46%; padding: 2%;}
 
