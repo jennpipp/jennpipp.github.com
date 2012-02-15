@@ -80,8 +80,8 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 /* begin custom CSS*/
 #main-content {color:red; position: realtive; width:500px; }
 img { float:left; margin: 10px; size: 20px;}
-#main-content h1 {size: 10%; color: blue;}
-h2 {size: 8%;}
-p {size: 6%}
+#main-content h1 {size: 30px; color: blue;}
+#main-content h2 {size: 20px}
+#main-content  p {size: 16px}
 
 
