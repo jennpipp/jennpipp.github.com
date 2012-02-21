@@ -51,6 +51,7 @@ table {
 body { font-family:Times; font-size:14px; margin:0 auto; width:960px;  }
 section#content { position: realitive; }
 article.art-of-seeing {position: absolute; width:960px;}
+.art-of-seeing img {width: 100%;}
 h1 { font-size:48px; font-weight:bold; color:black; text-align:center; }
 h2 { font-size:36px; font-weight:bold; color:black; text-align:center; }
 p { padding-bottom:16px; }
