@@ -75,7 +75,7 @@ html[xmlns] .clearfix { display: block; }
 
 /* begin custom CSS*/
 #main-content {font-family: arial; position: realtive; width: 900px; background: red;}
-header {float: left; padding: 100px; width: 700px; background: purple;}
+header {float: left; padding: 25%; width: 700px; background: purple;}
 #main-menu { postion: float; width: 500px; height: 50px;}
 .main-nav li  {float:left; padding: 10px;}
 
