@@ -53,8 +53,7 @@ section#content { position: realitive; }
 .art-of-seeing img {width: 100%; position: absolute; }
 article.art-of-seeing {position: absolute; width:960px; positon:absolute; top: 460px;}
 
-.art-of-seeing h1 { font-size:100px; font-weight:bold; color:black; text-align:left; }
-.art-of-seeing h2 { font-size:24px; font-weight:bold; color:black; }
+
 #details {float: right; width:200px}
 #title {float: left; width: 600px;}
 .footer h1 { font-size:24px; font-weight:bold; color:purple; postion:absolute; bottom: 0px; }
