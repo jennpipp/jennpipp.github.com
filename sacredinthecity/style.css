@@ -48,12 +48,12 @@ table {
 }
 
 /* Add Styles Here */
-body { font-family:Times; font-size:14px; margin:0 auto; width:960px; background-color: black; }
+body { font-family:Times; font-size:14px; margin:0 auto; width:960px; background-color: white; }
 section#content { position: realitive; }
 .art-of-seeing img {width: 100%; position: absolute; }
-article.art-of-seeing {position: absolute; width:960px;}
+article.art-of-seeing {position: absolute; width:960px; positon:absolute; top: 460px;}
 
-.art-of-seeing h1 { font-size:100px; font-weight:bold; color:black; text-align:left; position: absolute;  top: 460px;}
-.art-of-seeing h2 { font-size:24px; font-weight:bold; color:white; position: absolute; text-align:right; top:380px;}
+.art-of-seeing h1 { font-size:100px; font-weight:bold; color:black; text-align:left; }
+.art-of-seeing h2 { font-size:24px; font-weight:bold; color:black; }
 p { padding-bottom:16px; }
 .footer h1 { font-size:24px; font-weight:bold; color:purple; text-align:left; }
