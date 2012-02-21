@@ -83,6 +83,6 @@ body {
 header {position: relative; Height: 300px; background: purple; }
 img logo { position: absolute; width: 450px;left: 250px; }
 #main-menu {position; aboslute; width: 960px; height: 50px; border: 1px;}
-.main-nav li  {float:left; padding: 10px; font-size: 18px;}
+.main-nav li  {float:left; padding: 10px; font-size: 18px; font-color: black;}
 
 img { float:left; margin: 0px 10px 20px 0px; width:40%;}
