@@ -48,7 +48,7 @@ table {
 }
 
 /* Add Styles Here */
-body { font-family:Times; font-size:14px; margin:0 auto; width:960px;  }
+body { font-family:Times; font-size:14px; margin:0 auto; width:100%;  }
 section#content { position: realitive; }
 article.art-of-seeing {position: absolute; width:960px;}
 .art-of-seeing img {width: 100%;}
