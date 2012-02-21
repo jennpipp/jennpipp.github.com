@@ -87,5 +87,5 @@ section #content {postion: realtive; width: 800px; color:orange:}
  .dogs {float: left; width: 400px;}
 .cats  {float: left; width: 400px;}
 img   {position: absolute; width: 300px; padding: 10px;}
-img cat {width: 500px;}
+.dogs img {width: 500px;}
 cat img {width: 10px;}
