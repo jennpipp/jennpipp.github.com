@@ -78,11 +78,13 @@ body {
 	width:960px;
 	margin:0 auto;
 }
-#main-content {font-family: arial; position: realtive; width: 960px; background: red;}
+position:relative;
+	height:120px;
 
-header {position: absolute; top: 0; left: 0; width: 900px; Height: 300px; background: purple; }
-img logo { float: left; width: 450px; padding: 50px; border: 2px;}
-#main-menu {position; aboslute; top:0px; width: 900px; height: 50px;}
+
+header {position: relative; Height: 300px; background: purple; }
+img logo { position: absolute; width: 450px;left: 250px; }
+#main-menu {position; aboslute; width: 960px; height: 50px; border: 1px;}
 .main-nav li  {float:left; padding: 10px; font-size: 18px;}
 
 img { float:left; margin: 0px 10px 20px 0px; width:40%;}
