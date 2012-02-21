@@ -78,7 +78,7 @@ html[xmlns] .clearfix { display: block; }
 
 header {position: absolute; top: 0; left: 0; width: 900px; Height: 300px; background: purple; }
 img logo { float: left; width: 450px; padding: 50px; border: 2px;}
-#main-menu {position; aboslute; top:300px; width: 900px; height: 50px;}
+#main-menu {position; aboslute; top:0px; width: 900px; height: 50px;}
 .main-nav li  {float:left; padding: 10px; font-size: 18px;}
 
 img { float:left; margin: 0px 10px 20px 0px; width:40%;}
