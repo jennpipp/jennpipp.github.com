@@ -80,8 +80,7 @@ body {
 }
 
 
-header {position: relative; Height: 300px; background: purple; }
-img logo { position: absolute; width: 450px;left: 250px; }
+header {position: relative; Height: 200px; background: purple; }
 #main-menu {position; aboslute; width: 960px; height: 50px; border: 1px;}
 .main-nav li  {float:left; padding: 10px; font-size: 18px; font-color: black;}
 
