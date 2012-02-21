@@ -85,6 +85,6 @@ header {position: relative; Height: 200px; background: purple; }
 .main-nav li  {float:left; padding: 10px; font-size: 18px; font-color: black;}
 section #content {postion: realtive; width: 800px; color:orange:}
  .dogs {float: left; width: 200px;}
-article .cats  {float: left; width: 40%;}
+.cats  {float: left; width: 40%;}
 img cat  {float:left; width:40%;}
 img dog  {float:left; width:90px;}
