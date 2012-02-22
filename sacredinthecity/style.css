@@ -48,24 +48,96 @@ table {
 }
 
 /* Add Styles Here */
-body { 
-	font-family:Times; 
-	font-size:14px;
-	background-color:purple; 
-	}
-section#content { position: realitive; }
-.art-of-seeing img {
-	float:left;
-	width:100%;
-	top:0;}
-article.art-of-seeing {position: absolute; width:960px; positon:absolute; top: 460px;}
-.art-of-seeing h1 { font-size:100px; font-weight:bold; color:black; text-align:left; }
-.art-of-seeing h2 { font-size:24px; font-weight:bold; color:black; }
-
-
-section#title {float: left; width: 600px;}
-section#details {float: right; width:200px;}
-#info {
-	clear:both;
+body {
+	width:900px;
+	margin: auto;
 }
-.footer h1 { font-size:24px; font-weight:bold; color:purple; postion:absolute; bottom: 0px; }
+a {
+    text-decoration: none; 
+    }
+p { 
+	font-family: arial; 
+	font-size:16px;
+	
+	line-height: 1.5em;
+	}
+header {
+position: realitive;
+}
+	
+.art-of-seeing img {
+	position: absolute;
+	top: 0;
+	}
+section#content { 
+	position: realitive; 
+	width: 900px;
+	height: 450px;
+	
+	}
+article.art-of-seeing {
+position: absolute; 
+top: 460px;
+width: 900px;
+
+}
+
+section#title {
+float: left; 
+width: 600px; 
+margin: 30px 0px 0px 0px;
+font-size:100px; 
+font-weight:bold;
+color: #332e34; 
+}
+
+section#details {
+margin: -50px 0px 30px 0px;
+float: right; 
+width:200px;
+color: #914859;
+font-size:30px; 
+font-weight:bold; 
+}
+
+section.copy {
+	display:block;
+	clear:both;
+	margin: 100px 50px;
+}
+
+#footer { 
+font-size:24px; 
+font-weight:bold; 
+color:#332e34;
+postion:absolute; 
+bottom: 0px; 
+margin: 20px 0px  
+}
+
+#footer h1{
+color: #914859;
+font-size:30px; 
+font-weight:bold; 
+}
+ul {
+  border-style:double;
+    border-width:4px;
+    height: 40px;
+    }
+    
+li {
+float: left;
+display: block;
+margin: 10px;
+}
+
+#details li {
+margin: 0; 
+color: #914859;
+width:200px;
+}
+
+footer# a:hover {
+  background-color: red;
+  }
