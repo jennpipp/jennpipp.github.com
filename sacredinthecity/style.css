@@ -48,9 +48,16 @@ table {
 }
 
 /* Add Styles Here */
-body { font-family:Times; font-size:14px; margin:0 auto; width:960px; background-color: white; }
-section#content { position: realitive; width }
-.art-of-seeing img {width: 100%; position: absolute; }
+body { 
+	font-family:Times; 
+	font-size:14px;
+	background-color:purple; 
+	}
+section#content { position: realitive; }
+.art-of-seeing img {
+	float:left;
+	width:100%;
+	top:0;}
 article.art-of-seeing {position: absolute; width:960px; positon:absolute; top: 460px;}
 .art-of-seeing h1 { font-size:100px; font-weight:bold; color:black; text-align:left; }
 .art-of-seeing h2 { font-size:24px; font-weight:bold; color:black; }
@@ -58,4 +65,7 @@ article.art-of-seeing {position: absolute; width:960px; positon:absolute; top: 4
 
 section#title {float: left; width: 600px;}
 section#details {float: right; width:200px;}
+#info {
+	clear:both;
+}
 .footer h1 { font-size:24px; font-weight:bold; color:purple; postion:absolute; bottom: 0px; }
