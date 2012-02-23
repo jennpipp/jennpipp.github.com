@@ -57,7 +57,7 @@ a {
     }
 p { 
 	font-family: arial; 
-	font-size:16px;
+	font-size:18px;
 	
 	line-height: 1.5em;
 	}
@@ -72,7 +72,7 @@ position: realitive;
 section#content { 
 	position: realitive; 
 	width: 900px;
-	height: 500px;
+	height: 600px;
 	
 	}
 article.art-of-seeing {
@@ -92,27 +92,36 @@ color: #332e34;
 }
 
 section#details {
-margin: -50px 0px 30px 0px;
+margin: -60px 0px 30px 0px;
 float: right; 
-width:200px;
+width:210px;
 color: #914859;
 font-size:30px; 
 font-weight:bold; 
+
 }
+
 #details li {
 margin: 0; 
 color: #914859;
-width:200px;
+width:300px;
+margin: 10px 0;
 
 }
 #details a{
-background-color: orange;
-margin: 5px;
+color: #f443b7;
+padding: 0 4px;
+
+ Border-color: #f95a16;
   border-style:double;
     border-width:4px;
+    -moz-border-radius: 15px;
+	border-radius: 15px;
+	
 }
 #details a:hover {
-  color: white;
+  color: #f95a16;
+  background-color: #affffe;
   }
 
 
@@ -133,14 +142,10 @@ margin: 20px 0px
 
 #footer h1{
 color: #914859;
-font-size:60px; 
+font-size:45px; 
 font-weight:bold; 
 }
-ul {
-  border-style:double;
-    border-width:4px;
-    height: 40px;
-    }
+
     
 li {
 float: left;
@@ -151,8 +156,15 @@ margin: 10px;
 
 
 #footer a {
-  background-color: red;
+  color: #751813;
+padding: 0 4px;
+background-color: #76f3eb;
+ Border-color: #751813;
+  border-style:double;
+    border-width:4px;
+    -moz-border-radius: 15px;
+	border-radius: 15px;
   }
-#footer a: hover {
-  background-color: blue;
+#footer a:hover {
+  color: grey;
   }
