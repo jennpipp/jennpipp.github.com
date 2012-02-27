@@ -82,8 +82,9 @@ body {
 
 
 h1 {
-font-size: 20px;
+font-size: 24px;
 font-weight: bold;
+margin: 10px 0;
 }
 h2{
 font-size: 24px;
@@ -98,67 +99,78 @@ color: black;
 }
 
 p {
-text-size: 16px;
-line-height: 2em;
+text-size: 20px;
+line-height: 1.5em;
+
 }
 
 header {
 	position:relative; 
-	height:250px;
-
+	height:170px;
 	}
 	
 header img   {
-	position: absolute;  
-	top:0px; 
 	margin: 50px 200px;
-	width: 400px;
+	width: 450px;
+	display: block;
+    margin: 30px auto;
 	}
 	
 #main-menu {
 	position:absolute; 
-	top:150px; 
-	height: 70px; 
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-		width: 960px;
+	top:130px; 
+	height: 35px; 
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	width: 960px;
+	background-color: blue;
 	}
 	
 .main-nav {
-	border-style: solid;
-	
+	width: 760px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 
 	}
 
 .main-nav li  {
 	float:left; 
-	margin: 20px; 
-	font-size: 30px; 
+	margin: 5px 20px; 
+	font-size: 20px; 
+	font-weight: bold;
 	font-color: black;
 	list-style-type: disc;
 	}
-	.main-nav a  {
-font-size: 24px;
+.main-nav a  {
+	font-size: 24px;
 	}
  .cats , .dogs {
 float: left;
-width: 400px;
+width: 450px;
 margin: 10px;
+font-size: 16px;
 }
 
 
 
 .cats img, .dogs img {
-width: 300px;
+width: 450px;
+height: 300px;
 }
 
+.cats p, .dogs p {
+width: 430px;
+
+}
 
 footer {
 	width:960px;
 	position:relative;
 	clear: both;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 4px solid black;
+	font-size: 16px;
 }
 #footer-nav li { 
 	float:left;
