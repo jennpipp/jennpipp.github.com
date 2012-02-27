@@ -104,21 +104,22 @@ position: relative;
 top:0;
 width: 960px;
 height: 150px;
-
 }
+
 #top-nav  {
 background-color: pink;
 position: absolute;
 top: 0;
 right: 200px;
-
 }
+
 #menu-wrapper  {
 background-color: white;
 position: absolute;
 height: 40px;
 width: 960px;
 }
+
 #main-menu  {
 background-color: white;
 }
@@ -128,11 +129,11 @@ color: black;
 float: left;
 margin: 10px;
 }
-#content-wrapper  {
+#content-wrapper div  {
 background-color: white;
 float: left;
-width: 800px;
-margin: auto;
+width: 90%;
+margin: 10%;
 }
 #content  {
 background-color: grey;
@@ -145,7 +146,7 @@ width:500px;
 #sidebar  {
 background-color: orange;
 float:right;
-width: 200px;
+width: 300px;
 }
 #footer-wrapper  {
 background-color: yellow;
