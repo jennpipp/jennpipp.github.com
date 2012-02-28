@@ -1,0 +1,21 @@
+
+
+indentation pattern for readablity
+
+#main-column { display: inline; float: left; width: 30em; }
+	#main-column h1 { font-family: Georgia, "Times New Roman", Times, serif; margin-bottom: 20px; }
+	#main-column p { color: #333; }
+	
+	
+indenting for new items or use	/* @new */
+	#sidebar ul li a {
+     display: block;
+     background-color: #ccc;
+          border-bottom: 1px solid #999; /* @new */
+     margin: 3px 0 3px 0;
+          padding: 3px; /* @new */
+}
+
+/* -----------------------------------*/
+/* ---------->>> GLOBAL <<<-----------*/
+/* -----------------------------------*/

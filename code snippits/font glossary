@@ -1,0 +1,10 @@
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy:		1.2em/1.6em Verdana, Helvetica, Arial, Geneva, sans-serif;
+Headers:		2.7em/1.3em Helvetica, Arial, "Lucida Sans Unicode", Verdana, sans-serif;
+Input, textarea:	1.1em Helvetica, Verdana, Geneva, Arial, sans-serif;
+Sidebar heading:	1.5em Helvetica, Trebuchet MS, Arial, sans-serif;
+
+Notes:	decreasing heading by 0.4em with every subsequent heading level
+-------------------------------------------------------------------*/
