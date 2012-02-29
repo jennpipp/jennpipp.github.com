@@ -159,7 +159,6 @@ font-size: 14px;
 .cats img, .dogs img {
 width: 450px;
 height: 300px;
-filter:gray;
 }
 
 .cats p, .dogs p {
