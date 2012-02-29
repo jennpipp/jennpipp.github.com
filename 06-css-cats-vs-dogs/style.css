@@ -139,6 +139,11 @@ header img   {
 	font-color: black;
 	list-style-type: disc;
 	}
+
+.main-nav li:first-child {
+	list-style-type: none;	
+}	
+	
 .main-nav a  {
 	font-size: 24px;
 	}
@@ -154,6 +159,7 @@ font-size: 14px;
 .cats img, .dogs img {
 width: 450px;
 height: 300px;
+filter:gray;
 }
 
 .cats p, .dogs p {

@@ -66,8 +66,8 @@ table {
 
 body {
 
-width: 960px;
-margin:0 auto;
+width: 100%;
+
 }
 
 
@@ -95,14 +95,15 @@ font-size: 24px;
 #site-wrapper  {
 background-color: blue;
 position: realtive; 
-width: 960px;
+width: 100%;
 }
 
 #site-header  {
-background-color: yellow;
+background-color: purple;
 position: relative;
 top:0;
 width: 960px;
+margin:0 auto;
 height: 150px;
 }
 
@@ -151,7 +152,7 @@ width: 300px;
 #footer-wrapper  {
 background-color: yellow;
 position: realative;
-width:960px;
+width:100%;
 clear: both;
 
 }
