@@ -126,10 +126,10 @@ margin: 1em;
 
 
 #home {
-width: 900px;
+width: 1400px;
 Height: 900px;
 float:left;
-background-color: orange;
+background-color: black;
 display:box;
 }
 
@@ -157,7 +157,7 @@ width: 200px;
 #phrase1 {
 position:absolute;
 top: 100px;
-Right: 400px;
+Right: 600px;
 font-size: 6em;
 color: blue;
 width: 700px;
@@ -171,7 +171,7 @@ color: green;
 
 #phrase2 {
 position:absolute;
-right: 200px;
+right: 600px;
 bottom: 200px;
 font-size: 2.5em;
 color: purple;
@@ -180,7 +180,7 @@ width: 500px;
 
 #top2 {
 position:absolute;
-top: -20px;
+top: -10px;
 color: red;
 
 }
@@ -188,19 +188,33 @@ color: red;
 
 #site-footer {
 position:absolute:
-background-color: purple;
+background-color: black;
 bottom: 0;
 }
 
 #events {
 float: left;
-background-color: teal;
+background-color: black;
 width: 900px;
 height: 900px;
 }
 #services {
 float: left;
-background-color: red;
+background-color: black;
 width: 900px;
+height: 900px;
 }
-
+#about {
+float: left;
+background-color: black;
+width: 900px;
+height: 900px;
+}
+.info-box {
+display:box;
+width: 200px;
+height: 300px;
+margin: 20px;
+float: left;
+background-color: teal;
+}
