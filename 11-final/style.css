@@ -93,18 +93,31 @@ font-weight: bold;
 
 a {
 text-decoration: none;
-font-family: georgia;
+font-family: arial;
 font-size: 1em;
-color: grey;
+color: white;
+
 }
 
 p {
 text-size: 16px;
 line-height: 1.5em;
+font-family: arial;
 }
+header {
+width: 400px;
+background-color: grey;
+height: 100px;
+position: absolute;
+top: 20px;
+color: white;
+}
+
+
 #home {
 width: 960px;
 float:left;
+background-color: orange;
 }
 #image { 
 position: absoulute;
@@ -114,4 +127,5 @@ background-color: red;
 footer {
 background-color: purple;
 }
+
 
