@@ -91,7 +91,7 @@ orange #f36525
 
 */
 body {
-	width:6000px;
+	width:7000px;
 	height:800px;
 	position: realtive;
 	background-color: #050F1A;
@@ -289,7 +289,11 @@ float: left;
 width: 1200px;
 height: 800px;
 }
-
+#resources {
+float: left;
+width: 1200px;
+height: 800px;
+}
 .info-box {
 display:box;
 width: 300px;
@@ -392,6 +396,29 @@ background-color: #bc1c81
 }
 #about-content .info-box-3 {
 background-color: #bc1c81
+
+}
+
+/* resources  section */
+#resources  h1 
+{ color: #243582;
+}
+
+#resources-content  h1 
+{ color: black;
+font-size: 18px;
+
+}
+#resources-content .info-box {
+background-color: #243582;
+}
+
+#resources-content .info-box-3 {
+background-color: #243582
+
+}
+#resources-content .info-box-3 {
+background-color: #243582
 
 }
 /* events page */
