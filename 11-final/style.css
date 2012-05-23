@@ -123,9 +123,13 @@ line-height: 1.5em;
 font-family: arial;
 }
 
+img {
+height: 100%;
+}
 
+/* header arrow */
 header {
-width: 530px;
+width: 560px;
 background-color: grey;
 height: 110px;
 position: fixed;
@@ -136,12 +140,12 @@ color: white;
 header img {
 float: left;
 height: 100px;
-margin:5px 5px;
+margin:5px 10px;
 }
 
 header h1 {
-float: right;
-font-size: 3.5em;
+float: left;
+font-size: 3.7em;
 }
 
 .I-T {
@@ -153,11 +157,11 @@ font-family: 'OctinSpraypaintARegular';
 }
 
 li { float: left;
-margin: .2em .7em;
+margin: .2em 1.4em .2em 0em;
 }
 
 header a {
-font-size: 1.34em;
+font-size: 1.2em;
 display: box;
 }
 header li a:hover  {
@@ -166,7 +170,7 @@ header li a:hover  {
 
 #header-arrow 
 {	position: absolute;
-	left:530px;
+	left:560px;
 
 	width: 0;
 	height: 0;
@@ -174,23 +178,19 @@ header li a:hover  {
 	border-left: 50px solid grey;
 	border-bottom: 55px solid transparent;
 }		
-
+/* home base*/
 #home {
 width: 1200px;
-Height: 800px;
+Height: 750px;
 float: left;
 background-color: #050F1A;
 display:box;
 }
 
-img rainbow-jaguar {
-height: 700px;
-}
-
-#image { 
+#main-image { 
 position:absolute;
-top: 20px;
-height: 600px;
+top: 100px;
+height:600px;
 }
 
 /* Join Loop */
@@ -260,13 +260,6 @@ width: 500px;
 color#243582
 }
 
-#top2 {
-display: none;
-position:absolute;
-top: -10px;
-color: red;
-}
-
 /* Footer */
 #site-footer {
 position:absolute;
@@ -275,6 +268,25 @@ width: 800px;
 color: grey;
 }
 
+#follow {
+position: absolute;
+width: 350px;
+top: 700px;
+left: 400px;
+
+font-size: .5em;
+}
+.follow-links section {
+width: 50px;
+margin: 5px;
+padding: 5px;
+background-color: white;
+float: left;
+}
+.follow-links img{
+width: 100%;
+height: 40px;
+}
 
 #events {
 float: left;
