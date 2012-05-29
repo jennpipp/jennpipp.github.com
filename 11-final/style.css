@@ -103,26 +103,26 @@ h1 {
 font-size: 3em;
 margin: 0 0 20px 0;
 font-family: 'OctinSpraypaintARegular';
-color: white;
+color: #EEEEEE;
 }
 
 h2{
 font-size: 1.5em;
-color: white;
+color: #EEEEEE;
 }
 
 a {
 text-decoration: none;
 font-family: arial;
 font-size: 16px;
-color: white;
+color: #EEEEEE;
 }
 
 p {
 text-size: 16px;
 line-height: 1.5em;
 font-family: arial;
-color: white;
+color: #EEEEEE;
 }
 
 img {
@@ -135,7 +135,7 @@ width: auto;
 /* header arrow */
 header {
 width: 480px;
-background-color: grey;
+background-color: #777777;
 height: 90px;
 position: fixed;
 top: 5px;
@@ -151,7 +151,6 @@ margin:5px 10px;
 header h1 {
 float: left;
 font-size: 3em;
-
 }
 
 .I-T {
@@ -181,7 +180,7 @@ header li a:hover  {
 	width: 0;
 	height: 0;
 	border-top: 45px solid transparent;
-	border-left: 50px solid grey;
+	border-left: 50px solid #777777;
 	border-bottom: 45px solid transparent;
 }		
 /* home base*/
@@ -219,7 +218,7 @@ top: 130px;
 left: 620px;
 width: 270px;
 font-family: 'OctinSpraypaintARegular';
-color: white;
+color: #EEEEEE;
 display: box;
 border-radius: 30px;
 
@@ -255,12 +254,12 @@ position:absolute;
 top: 590px;
 left: 260px;
 width: 600px;
-color: grey;
+color: #333333;
 font-size: .8em;
 }
 
 #site-footer a {
-color: grey;
+color: #333333;
 font-size: .8em;
 }
 
@@ -275,7 +274,7 @@ width: 250px;
 top:575px;
 left: 0px;
 font-size: .3em;
-color: grey;
+color: #333333;
 background-color: ;
 }
 
@@ -288,22 +287,23 @@ width: 50px;
 width: 100%;
 height: auto;
 }
-/* sections*/
-#content h1 {
 
+/* sections*/
+.section {
+color: red;
 }
+
 .info-box {
 height: 500px;
-width: 820px;
+width: 920px;
 margin: 0px 30px ;
 float: left;
-color: white;
+color: #EEEEEE;
 }
 
 .info-box h1 {
 font-size: 3em;
-color: grey;
-
+color:yellow;
 }
 
 #rss img {
@@ -311,176 +311,67 @@ display: none;
 }
 
 #rss {
-background-color: black;
+background-color: #111111;
 height: 100%;
-width: 300px;
+width: 400px;
 float: left;
 }
 #rss h1{
 margin:  5px 10px 10px 10px;
+color: #888888;
 }
 
 
 .headline a{
-color: #007d9d;
-font-size: 1.3em;
+color: #888888;
+font-size: 1.2em;
 font-family: arial;
 }
 
 #rss li{
-margin:  0 10px 10px 10px;
-list-style: none;
-display:box;
-
-}
+	margin:  0 10px 10px 10px;
+	list-style: none;
+	display:box;
+	}
 #rss li a:hover {
-color: #ed2324;
-}
+	color: #ed2324;
+	}
 
 .info-box-image {
-height: 500px;
-width: 500px;
-background-color: black;
-float: left ;
-}
+	height: 500px;
+	width: 500px;
+	background-color: #111111;
+	float: left ;
+	}
+
 .info-box-image img {
-width:100%;
-Height: auto;
-margin:  auto;
-}
+	width:100%;
+	Height: auto;
+	margin:  auto;
+	}
 
 .info-box-copy {
-height: 100%;
-width: 300px;
-float: left;
-background-color: black;
-margin: 0 10px;
-}
+	height: 100%;
+	width: 400px;
+	float: left;
+	background-color: #111111;
+	margin: 0 10px;
+	}
 
 #about .info-box {
-width: 1020px;
+	width: 1020px;
+	}
 
-}
 #about .info-box-copy  {
-width: 500px; 
-
-}
+	width: 500px; 
+	}
 
 
 #events {
-float: left;
-
-height: 600px;
-width: 2000px;
-}
-/*
-#services {
-float: left;
-height: 650px;
-width: 4200px;
-display: box;
-background-color: blue;
-
-}
-#about {
-float: left;
-width: 8000px;
-height: 6500px;
-clear:both;
-}
-#resources {
-float: left;
-background-color: red;
-height: 650px;
-width: 2000px;
-display: box;
-}
-
-
-/* page sections
-.section-info {
-height: 800px;
-width: 800px;
-float: left;
-margin: 20px;
-color: white;
-}
-
-/* events section */
-#events  h1 
-{ color: #007d9d;
-}
-
-#events-content  h1 
-{ color: black;
-font-size: 18px;
-
-}
-#events-content .info-box {
-background-color: #007d9d;
-}
-
-
-/* services section */
-#services  h1 
-{ color: #796f3c;
-}
-
-#services-content  h1 
-{ color: black;
-font-size: 18px;
-
-}
-#services-content .info-box {
-background-color: #796f3c;
-}
-
-/* about section */
-#about  h1 
-{ color: #bc1c81;
-}
-
-#about-content  h1 
-{ color: black;
-font-size: 18px;
-
-}
-#about-content .info-box {
-background-color: #bc1c81;
-}
-
-#about-content .info-box-3 {
-background-color: #bc1c81
-
-}
-#about-content .info-box-3 {
-background-color: #bc1c81
-
-}
-
-/* resources  section */
-#resources  h1 
-{ color: #243582;
-}
-
-#resources-content  h1 
-{ color: black;
-font-size: 18px;
-
-}
-#resources-content .info-box {
-background-color: #243582;
-}
-
-#resources-content .info-box-3 {
-background-color: #243582
-
-}
-#resources-content .info-box-3 {
-background-color: #243582
-
-}
-/* events page */
+	float: left;
+	height: 600px;
+	width: 2000px;
+	}
 
 @font-face {
     font-family: 'OctinSpraypaintARegular';
@@ -491,6 +382,5 @@ background-color: #243582
          url('fonts/octin_spraypaint_a_rg-webfont.svg#OctinSpraypaintARegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}
+	}
 
