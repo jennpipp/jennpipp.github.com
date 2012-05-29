@@ -101,7 +101,7 @@ body {
 
 h1 {
 font-size: 3em;
-margin: 10px 0;
+margin: 0 0 20px 0;
 font-family: 'OctinSpraypaintARegular';
 color: white;
 }
@@ -129,6 +129,8 @@ img {
 height: 100%;
 width: auto;
 }
+
+
 
 /* header arrow */
 header {
@@ -184,7 +186,7 @@ header li a:hover  {
 }		
 /* home base*/
 #home {
-width: 840px;
+width: 940px;
 Height: 650px;
 float: left;
 background-color: #050F1A;
@@ -202,7 +204,7 @@ height:550px;
 #phrase {
 position: absolute;
 top: 130px;
-left: 20px;
+left: 50px;
 width: 600px;
 font-family: 'OctinSpraypaintARegular';
 font-size: 2em;
@@ -214,7 +216,7 @@ color: #440a45;
 #loop {
 position:absolute;
 top: 130px;
-left: 580px;
+left: 620px;
 width: 270px;
 font-family: 'OctinSpraypaintARegular';
 color: white;
@@ -250,22 +252,31 @@ margin: 20px 0px;
 /* Footer */
 #site-footer {
 position:absolute;
-top: 600px;
+top: 590px;
+left: 260px;
 width: 600px;
-
-
 color: grey;
+font-size: .8em;
 }
+
 #site-footer a {
 color: grey;
+font-size: .8em;
+}
+
+#site-footer a:hover{
+display: box;
+color:#ed2324;
 }
 
 #follow {
 position: absolute;
-width: 400px;
-top:500px;
-left: 580px;
-font-size: .4em;
+width: 250px;
+top:575px;
+left: 0px;
+font-size: .3em;
+color: grey;
+background-color: ;
 }
 
 .follow-links section {
@@ -276,14 +287,54 @@ width: 50px;
 .follow-links img{
 width: 100%;
 height: auto;
-
 }
 /* sections*/
+#content h1 {
+
+}
 .info-box {
 height: 500px;
-width: 720px;
+width: 820px;
 margin: 0px 30px ;
 float: left;
+color: white;
+}
+
+.info-box h1 {
+font-size: 3em;
+color: grey;
+
+}
+
+#rss img {
+display: none;
+}
+
+#rss {
+background-color: black;
+height: 100%;
+width: 300px;
+float: left;
+}
+#rss h1{
+margin:  5px 10px 10px 10px;
+}
+
+
+.headline a{
+color: #007d9d;
+font-size: 1.3em;
+font-family: arial;
+}
+
+#rss li{
+margin:  0 10px 10px 10px;
+list-style: none;
+display:box;
+
+}
+#rss li a:hover {
+color: #ed2324;
 }
 
 .info-box-image {
@@ -300,11 +351,21 @@ margin:  auto;
 
 .info-box-copy {
 height: 100%;
-width: 200px;
+width: 300px;
 float: left;
 background-color: black;
-margin: 10px;
+margin: 0 10px;
 }
+
+#about .info-box {
+width: 1020px;
+
+}
+#about .info-box-copy  {
+width: 500px; 
+
+}
+
 
 #events {
 float: left;
