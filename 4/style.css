@@ -76,13 +76,14 @@ blue text #00BBBF
 hot pink text #ED0D6C
 */
 body { background-color: #004555;}
-a { text-decoration: none;
-}
+a { text-decoration: none;}
+
 #top-nav a:hover,a:hover, #more a:hover{ 
 color:#FAAC38;
 }
 
-p { line-height: 1.5em;
+p { 
+	line-height: 1.5em;
 	color: #BFBFBF;
 	font-family: Arial;	
 	font-size: 18px;
@@ -116,10 +117,11 @@ h2 {
 		}
 
 #top-nav {
-	width: 960px;
+	width: 1030px;
 	position: absolute;
-	top: 120px;
-	left: 30px;
+	top: 130px;
+	left: 0px;
+	
 }
 #top-nav a {
 	font-size: 28px;
@@ -127,7 +129,7 @@ h2 {
 	float: left;
 	color: #BFBFBF;
 	display: block;
-	margin: 10px 30px;
+	margin: 10px 72px 5px 0px;
 }
 
 
@@ -152,9 +154,9 @@ h2 {
 #social-icons li, #footer-follow li {
 	margin: 0;
 	float: left;
-	margin: 10px;
-	height: 70px;
-	width: 80px;
+	margin: 4px;
+	height: 90px;
+	width: 90px;
 }
 
 #candy {
@@ -163,7 +165,6 @@ h2 {
 	top: 200px;
 	width: 960px;
 	height: 580px;
-	
 	display: block;
 }
 #candy h1 {
@@ -171,24 +172,24 @@ h2 {
 	right: 0px;
 	top:0px;
 
-	font-size: 110px;
+	font-size: 120px;
 	font-weight: bold;
 	width:500px;
 	text-align: right;
 	text-transform: none;
-	line-height: .9em;
+	line-height: .87em;
 	color:  #00BBBF;
 }
 #candy p {
 	position: absolute;
-	width:400px;
+	width:430px;
 	right: 0px;
-	bottom:0px;
+	bottom:-10px;
 }
 #more a {
 	position: absolute;
 	font-size: 30px;
-	right: 70px;
+	right: 100px;
 	bottom: -40px;
 	color: #ED0D6C;
 	text-decoration: underline;
@@ -200,9 +201,9 @@ h2 {
 		}
 #content {
 	position: absolute;
-	top: 760px;	
+	top: 740px;	
 	width: 960px;
-
+	
 }
 #content article {
 	float: left; 
@@ -211,37 +212,104 @@ h2 {
 }
 #content div {
 	float: right;
-	margin-top: 100px;
-	width: 400px;
-	height: 200px;
+	margin-top: 70px;
+	width: 430px;
+}
+
+#say-something {
+	padding-top: 100px;
 
 }
+	
+
 #content div p {
 	border-style: solid;
 	border-color: #ED0D6C;
-	border-width: thick;
-	
+	border-width: thin;
 }
 #site-footer {
-	float:left;
 	width: 960px;
 	height: 100px;
-	background-color: orange;
 	clear:both;
 	margin-top: 40px; 
+}
+
+#footer-wrapper  {	
+	margin:0 auto;
+	width: 960px;
+}
+
+#footer-contact {
+	position: absolute;
+	right: 0px;
+	width: 400px;
 	border-top: #ED0D6C;
 	border-style: solid;
-	
-	
-}
-#footer-contact {
-	float: right;
-	width: 400px;
 }
 #footer-follow {
 	position: absolute;
 	left: 0;
 	width: 600px;
+	border-top: #ED0D6C;
+	border-style: solid;
+}
+/*interior*/
+ 	#logo-sm h1 a {
+	display:block;
+ 	width:560px; 
+ 	height:123px;  
+ 	background:url(images/id-sm.png) no-repeat top left; 
+ 	text-indent:-9999px;
+
+ 	}
+ 	#logo-sm {
+ 		position: absolute;
+ 		right: 0px;
+ 		top: 0px;
+ 	}
+ 	#social-icons-sm {
+	position: absolute;
+	top: 50px;
+	right: -20px;
+	width: 600px;
+	height: 100px;
+	}
+#social-icons-sm li, #footer-follow-sm li {
+	margin: 0;
+	float: left;
+	margin: 30px;
+
+}
+#social-icons-sm img {
+		height: 55px;
+	width: 55px;
 }
 
+#content-in {
+	position: absolute;
+	top: 200px;	
+	
+}
+.title {
+	font-size: 7em;	
+	font-weight: bold;
+	margin-bottom: 30px;
+	
+}
+#content-in article {
+	float: left; 
+	width: 960px;
 
+	
+	}
+#content-in p {
+	width: 460px; 
+	margin-top: 30px;
+	float: left; 
+	padding-right: 100px;
+
+	
+	}
+
+
+ 	
