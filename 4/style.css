@@ -76,66 +76,172 @@ blue text #00BBBF
 hot pink text #ED0D6C
 */
 body { background-color: #004555;}
-a { 
-	text-decoration: none;
-	float: left;
-	color: #BFBFBF;
+a { text-decoration: none;
+}
+#top-nav a:hover,a:hover, #more a:hover{ 
+color:#FAAC38;
 }
 
 p { line-height: 1.5em;
 	color: #BFBFBF;
 	font-family: Arial;	
+	font-size: 18px;
 }
 
 h1 {
 	color: #FAAC38;
 	text-transform: uppercase;
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 h2 {
-	color: #BFBFBF;
+	color: #FAAC38;
+}
+
+#clear-both {
+	clear:both;
+	width: 960px;
+	height: 1px;
 }
 
 
-#site-wrapper  { 
-	height:500px;
-	}
+
+
 
 #site-header  { 
 		width: 960px;
 		margin:0 auto;
 		position: relative;
+		display: block;
 		}
 
 #top-nav {
-	width: 960;
+	width: 960px;
 	position: absolute;
-	top: 100px;
+	top: 120px;
+	left: 30px;
+}
+#top-nav a {
+	font-size: 28px;
+	text-decoration: none;
+	float: left;
+	color: #BFBFBF;
+	display: block;
+	margin: 10px 30px;
 }
 
 
-
-/*#site-wrapper h1 a {
+#logo h1 a {
 	display:block;
- 	width:806px; 
+ 	width:960px; 
  	height:123px;  
- 	background:url(images/logo.png) no-repeat top left; 
+ 	background:url(images/id.png) no-repeat top left; 
  	text-indent:-9999px;
 
  	}
-*/
 
 
+
+#social-icons {
+	position: absolute;
+	bottom: 50px;
+	left: 0px;
+	width: 500px;
+	height: 100px;
+	}
+#social-icons li, #footer-follow li {
+	margin: 0;
+	float: left;
+	margin: 10px;
+	height: 70px;
+	width: 80px;
+}
+
+#candy {
+	
+	position: absolute;
+	top: 200px;
+	width: 960px;
+	height: 580px;
+	
+	display: block;
+}
+#candy h1 {
+	position: absolute;
+	right: 0px;
+	top:0px;
+
+	font-size: 110px;
+	font-weight: bold;
+	width:500px;
+	text-align: right;
+	text-transform: none;
+	line-height: .9em;
+	color:  #00BBBF;
+}
+#candy p {
+	position: absolute;
+	width:400px;
+	right: 0px;
+	bottom:0px;
+}
+#more a {
+	position: absolute;
+	font-size: 30px;
+	right: 70px;
+	bottom: -40px;
+	color: #ED0D6C;
+	text-decoration: underline;
+} 
+#content-wrapper  {	
+	margin:0 auto;
+	width: 960px;
+
+		}
 #content {
+	position: absolute;
+	top: 760px;	
+	width: 960px;
 
 }
-#content-wrapper  {		
+#content article {
+	float: left; 
+	width: 500px;
+	
+}
+#content div {
+	float: right;
+	margin-top: 100px;
+	width: 400px;
+	height: 200px;
+
+}
+#content div p {
+	border-style: solid;
+	border-color: #ED0D6C;
+	border-width: thick;
+	
+}
+#site-footer {
+	float:left;
 	width: 960px;
-	margin:0 auto;
-		}
-
-
-
+	height: 100px;
+	background-color: orange;
+	clear:both;
+	margin-top: 40px; 
+	border-top: #ED0D6C;
+	border-style: solid;
+	
+	
+}
+#footer-contact {
+	float: right;
+	width: 400px;
+}
+#footer-follow {
+	position: absolute;
+	left: 0;
+	width: 600px;
+}
 
 
